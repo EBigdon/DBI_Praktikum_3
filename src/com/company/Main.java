@@ -5,29 +5,24 @@ import java.sql.*;
 public class Main {
 
     public static void main(String[] args) {
-            String url = "jdbc:mysql://localhost";
+            String url = "jdbc:mysql://localhost/CAP_DB";
             String username = "dbi";
             String password = "dbi_pass";
-
-            System.out.println("Connecting database...");
-
-            try (Connection connection = DriverManager.getConnection("jdbc:mysql://localhost", username, password)) {
-                System.out.println("Database connected!");
-            } catch (SQLException e) {
-                throw new IllegalStateException("Cannot connect the database!", e);
-            }
+            String query = "SELECT * FROM agents";
+            ResultSet result = make_sql_request(url,username,password,query);
     }
-/*
-    public static void close_connection(Connection con){
-        con.close();
-    }*/
 
-    public static Connection connect_to_database(String url, String username,String password){
-        try (Connection connection = DriverManager.getConnection(url, username, password)) {
+    public static ResultSet make_sql_request(String url, String username,String password,String query){
+        System.out.println("Connecting database...");
+        try  {
+            Connection connection = DriverManager.getConnection(url, username, password);
             System.out.println("Database connected!");
-            return connection;
+            Statement st = connection.createStatement();
+            ResultSet my_result = st.executeQuery(query);
+            connection.close();
+            return my_result;
         } catch (SQLException e) {
-            throw new IllegalStateException("Cannot connect the database!", e);
+            throw new IllegalStateException("Cannot connect to the database!", e);
         }
     }
 }
