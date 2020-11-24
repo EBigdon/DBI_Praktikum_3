@@ -17,7 +17,11 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/mysql-connector-java_8.0.22-1ubuntu20.10_all/mysql-connector-java-8.0.22.jar" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
@@ -30,6 +34,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -41,5 +50,43 @@
       <updated>1606220932873</updated>
     </task>
     <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="739" y="172" width="324" height="502" key="#com.intellij.openapi.roots.ui.configuration.libraryEditor.LibraryEditorDialog" timestamp="1606226686096">
+      <screen x="88" y="27" width="1631" height="901" />
+    </state>
+    <state x="739" y="172" width="324" height="502" key="#com.intellij.openapi.roots.ui.configuration.libraryEditor.LibraryEditorDialog/88.27.1631.901@88.27.1631.901" timestamp="1606226686096" />
+    <state x="647" y="111" width="739" height="525" key="FileChooserDialogImpl" timestamp="1606228152619">
+      <screen x="88" y="27" width="1631" height="901" />
+    </state>
+    <state x="647" y="111" width="739" height="525" key="FileChooserDialogImpl/88.27.1631.901@88.27.1631.901" timestamp="1606228152619" />
+    <state width="1585" height="224" key="GridCell.Tab.0.bottom" timestamp="1606228164152">
+      <screen x="88" y="27" width="1631" height="901" />
+    </state>
+    <state width="1585" height="224" key="GridCell.Tab.0.bottom/88.27.1631.901@88.27.1631.901" timestamp="1606228164152" />
+    <state width="1585" height="224" key="GridCell.Tab.0.center" timestamp="1606228164152">
+      <screen x="88" y="27" width="1631" height="901" />
+    </state>
+    <state width="1585" height="224" key="GridCell.Tab.0.center/88.27.1631.901@88.27.1631.901" timestamp="1606228164152" />
+    <state width="1585" height="224" key="GridCell.Tab.0.left" timestamp="1606228164151">
+      <screen x="88" y="27" width="1631" height="901" />
+    </state>
+    <state width="1585" height="224" key="GridCell.Tab.0.left/88.27.1631.901@88.27.1631.901" timestamp="1606228164151" />
+    <state width="1585" height="224" key="GridCell.Tab.0.right" timestamp="1606228164152">
+      <screen x="88" y="27" width="1631" height="901" />
+    </state>
+    <state width="1585" height="224" key="GridCell.Tab.0.right/88.27.1631.901@88.27.1631.901" timestamp="1606228164152" />
+    <state x="560" y="35" width="1016" height="742" key="SettingsEditor" timestamp="1606228156170">
+      <screen x="88" y="27" width="1631" height="901" />
+    </state>
+    <state x="560" y="35" width="1016" height="742" key="SettingsEditor/88.27.1631.901@88.27.1631.901" timestamp="1606228156170" />
+    <state x="211" y="70" width="1380" height="808" key="new project wizard" timestamp="1606225897434">
+      <screen x="88" y="27" width="1631" height="901" />
+    </state>
+    <state x="211" y="70" width="1380" height="808" key="new project wizard/88.27.1631.901@88.27.1631.901" timestamp="1606225897434" />
+    <state x="567" y="211" key="run.anything.popup" timestamp="1606228007588">
+      <screen x="88" y="27" width="1631" height="901" />
+    </state>
+    <state x="567" y="211" key="run.anything.popup/88.27.1631.901@88.27.1631.901" timestamp="1606228007588" />
   </component>
 </project>
