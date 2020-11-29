@@ -13,6 +13,9 @@ public class Main {
         String url = "jdbc:mysql://localhost/CAP_DB";
         String username = "dbi";
         String password = "dbi_pass";
+        System.out.print("Geben Sie eine Produk ID ein:");
+        Scanner scanner = new Scanner(System.in);
+        String product_id = scanner.nextLine();
         String query = "SELECT aname as 'Agent', orders.aid as 'Agentennummer',Sum(dollars) AS 'Umsatzzahlen'\n" +
                 "From CAP_DB.orders JOIN CAP_DB.agents\n" +
                 "    on orders.aid = agents.aid\n" +
