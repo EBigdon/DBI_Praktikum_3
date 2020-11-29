@@ -13,19 +13,15 @@ public class Main {
             String url = "jdbc:mysql://localhost/CAP_DB";
             String username = "dbi";
             String password = "dbi_pass";
-            String query = "SELECT * FROM agents";
-            ResultSet result = make_sql_request(url,username,password,query);
+            Connection con = get_sql_con(url,username,password);
     }
 
-    public static ResultSet make_sql_request(String url, String username,String password,String query){
+    public static Connection get_sql_con(String url, String username,String password){
         System.out.println("Connecting database...");
         try  {
             Connection connection = DriverManager.getConnection(url, username, password);
             System.out.println("Database connected!");
-            Statement st = connection.createStatement();
-            ResultSet my_result = st.executeQuery(query);
-            connection.close();
-            return my_result;
+            return connection;
         } catch (SQLException e) {
             throw new IllegalStateException("Cannot connect to the database!", e);
         }
