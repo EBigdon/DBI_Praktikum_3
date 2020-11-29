@@ -17,7 +17,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/mysql-connector-java_8.0.22-1ubuntu20.10_all/mysql-connector-java-8.0.22.jar" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/mysql-connector-java-8.0.22.jar" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -56,25 +56,30 @@
       <screen x="88" y="27" width="1631" height="901" />
     </state>
     <state x="739" y="172" width="324" height="502" key="#com.intellij.openapi.roots.ui.configuration.libraryEditor.LibraryEditorDialog/88.27.1631.901@88.27.1631.901" timestamp="1606226686096" />
-    <state x="647" y="111" width="739" height="525" key="FileChooserDialogImpl" timestamp="1606228152619">
-      <screen x="88" y="27" width="1631" height="901" />
+    <state x="705" y="125" width="739" height="525" key="FileChooserDialogImpl" timestamp="1606244384918">
+      <screen x="72" y="27" width="1848" height="1053" />
     </state>
+    <state x="705" y="125" key="FileChooserDialogImpl/72.27.1848.1053@72.27.1848.1053" timestamp="1606244384918" />
     <state x="647" y="111" width="739" height="525" key="FileChooserDialogImpl/88.27.1631.901@88.27.1631.901" timestamp="1606228152619" />
-    <state width="1585" height="279" key="GridCell.Tab.0.bottom" timestamp="1606239844341">
-      <screen x="88" y="27" width="1631" height="901" />
+    <state width="1802" height="275" key="GridCell.Tab.0.bottom" timestamp="1606244600570">
+      <screen x="72" y="27" width="1848" height="1053" />
     </state>
+    <state width="1802" height="275" key="GridCell.Tab.0.bottom/72.27.1848.1053@72.27.1848.1053" timestamp="1606244600570" />
     <state width="1585" height="279" key="GridCell.Tab.0.bottom/88.27.1631.901@88.27.1631.901" timestamp="1606239844341" />
-    <state width="1585" height="279" key="GridCell.Tab.0.center" timestamp="1606239844340">
-      <screen x="88" y="27" width="1631" height="901" />
+    <state width="1802" height="275" key="GridCell.Tab.0.center" timestamp="1606244600568">
+      <screen x="72" y="27" width="1848" height="1053" />
     </state>
+    <state width="1802" height="275" key="GridCell.Tab.0.center/72.27.1848.1053@72.27.1848.1053" timestamp="1606244600568" />
     <state width="1585" height="279" key="GridCell.Tab.0.center/88.27.1631.901@88.27.1631.901" timestamp="1606239844340" />
-    <state width="1585" height="279" key="GridCell.Tab.0.left" timestamp="1606239844338">
-      <screen x="88" y="27" width="1631" height="901" />
+    <state width="1802" height="275" key="GridCell.Tab.0.left" timestamp="1606244600567">
+      <screen x="72" y="27" width="1848" height="1053" />
     </state>
+    <state width="1802" height="275" key="GridCell.Tab.0.left/72.27.1848.1053@72.27.1848.1053" timestamp="1606244600567" />
     <state width="1585" height="279" key="GridCell.Tab.0.left/88.27.1631.901@88.27.1631.901" timestamp="1606239844338" />
-    <state width="1585" height="279" key="GridCell.Tab.0.right" timestamp="1606239844340">
-      <screen x="88" y="27" width="1631" height="901" />
+    <state width="1802" height="275" key="GridCell.Tab.0.right" timestamp="1606244600569">
+      <screen x="72" y="27" width="1848" height="1053" />
     </state>
+    <state width="1802" height="275" key="GridCell.Tab.0.right/72.27.1848.1053@72.27.1848.1053" timestamp="1606244600569" />
     <state width="1585" height="279" key="GridCell.Tab.0.right/88.27.1631.901@88.27.1631.901" timestamp="1606239844340" />
     <state width="1585" height="279" key="GridCell.Tab.1.bottom" timestamp="1606239844342">
       <screen x="88" y="27" width="1631" height="901" />
@@ -92,9 +97,10 @@
       <screen x="88" y="27" width="1631" height="901" />
     </state>
     <state width="1585" height="279" key="GridCell.Tab.1.right/88.27.1631.901@88.27.1631.901" timestamp="1606239844342" />
-    <state x="560" y="35" width="1016" height="742" key="SettingsEditor" timestamp="1606228156170">
-      <screen x="88" y="27" width="1631" height="901" />
+    <state x="607" y="36" width="1022" height="737" key="SettingsEditor" timestamp="1606244540598">
+      <screen x="72" y="27" width="1848" height="1053" />
     </state>
+    <state x="607" y="36" width="1022" height="737" key="SettingsEditor/72.27.1848.1053@72.27.1848.1053" timestamp="1606244540598" />
     <state x="560" y="35" width="1016" height="742" key="SettingsEditor/88.27.1631.901@88.27.1631.901" timestamp="1606228156170" />
     <state x="211" y="70" width="1380" height="808" key="new project wizard" timestamp="1606225897434">
       <screen x="88" y="27" width="1631" height="901" />
