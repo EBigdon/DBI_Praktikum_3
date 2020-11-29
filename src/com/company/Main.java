@@ -34,6 +34,21 @@ public class Main {
         }
     }
 
+    public static void print_out(String out){
+        for (int k = 21; k > String.valueOf(out).length(); k--) {
+            if (k % 2 == 0)
+                System.out.print(" ");
+        }
+        System.out.print(out);
+
+        for (int k = 21; k > String.valueOf(out).length(); k--) {
+            if (k % 2 == 1)
+                System.out.print(" ");
+        }
+        System.out.print("|");
+
+    }
+
     public static Connection get_sql_con(String url, String username,String password) {
         System.out.println("Connecting database...");
         try {
