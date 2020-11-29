@@ -23,11 +23,20 @@ public class Main {
                 "GROUP BY(orders.aid)\n" +
                 "Order by Umsatzzahlen desc";
         Connection con = get_sql_con(url,username,password);
+        try{
+            Statement st = con.createStatement();
+            ResultSet result = st.executeQuery(query);
+            System.out.println("        Agent        |    Agentennummer    |    Umsatzzahlen     |");
+            while(result.next()){
+            }
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
     }
 
-    public static Connection get_sql_con(String url, String username,String password){
+    public static Connection get_sql_con(String url, String username,String password) {
         System.out.println("Connecting database...");
-        try  {
+        try {
             Connection connection = DriverManager.getConnection(url, username, password);
             System.out.println("Database connected!");
             return connection;
