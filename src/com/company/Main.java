@@ -28,6 +28,10 @@ public class Main {
             ResultSet result = st.executeQuery(query);
             System.out.println("        Agent        |    Agentennummer    |    Umsatzzahlen     |");
             while(result.next()){
+                print_out(result.getString("Agent"));
+                print_out(result.getString("Agentennummer"));
+                print_out(result.getString("Umsatzzahlen"));
+                System.out.println();
             }
         } catch (SQLException e) {
             e.printStackTrace();
