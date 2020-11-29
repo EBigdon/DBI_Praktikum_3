@@ -10,10 +10,16 @@ import java.util.Scanner;
 public class Main {
 
     public static void main(String[] args) {
-            String url = "jdbc:mysql://localhost/CAP_DB";
-            String username = "dbi";
-            String password = "dbi_pass";
-            Connection con = get_sql_con(url,username,password);
+        String url = "jdbc:mysql://localhost/CAP_DB";
+        String username = "dbi";
+        String password = "dbi_pass";
+        String query = "SELECT aname as 'Agent', orders.aid as 'Agentennummer',Sum(dollars) AS 'Umsatzzahlen'\n" +
+                "From CAP_DB.orders JOIN CAP_DB.agents\n" +
+                "    on orders.aid = agents.aid\n" +
+                "Where orders.pid='p01'\n" +
+                "GROUP BY(orders.aid)\n" +
+                "Order by Umsatzzahlen desc";
+        Connection con = get_sql_con(url,username,password);
     }
 
     public static Connection get_sql_con(String url, String username,String password){
