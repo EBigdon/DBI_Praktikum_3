@@ -19,7 +19,7 @@ public class Main {
         String query = "SELECT aname as 'Agent', orders.aid as 'Agentennummer',Sum(dollars) AS 'Umsatzzahlen'\n" +
                 "From CAP_DB.orders JOIN CAP_DB.agents\n" +
                 "    on orders.aid = agents.aid\n" +
-                "Where orders.pid='p01'\n" +
+                "Where orders.pid='" + product_id + "'\n" +
                 "GROUP BY(orders.aid)\n" +
                 "Order by Umsatzzahlen desc";
         Connection con = get_sql_con(url,username,password);
